@@ -17,6 +17,7 @@ class MenuOptionCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        menuLabel.setCustomeFont(name: Constants.fontTitleApp, size: Constants.fontSizeDefault,textStyle: .headline)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
